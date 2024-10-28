@@ -12,7 +12,7 @@ git bisect 二分查找
 
 ## 基础用法
 
-终端运行 `git bisect start` 进入 bisect 模式，通过 `git bisect good` 和 `git bisect bad` 命令给当前的 commit 打上标记，good 表示没有出现 bug，bad 表示出现了 bug。第一个 good 和 bad 标记会成为二分法的起始点。
+终端运行 `git bisect start` 进入 bisect 模式，通过 `git bisect good` 和 `git bisect bad` 命令给当前的 commit 打上标记，good 表示没有出现 bug，bad 表示出现了 bug。第一个 good 和 bad 标记划分了二分查找的范围。
 
 当第一个 good 和 bad 标记添加好后，会开始 git bisect，会跳转到需要判断的 commit，当你判断完当前的 commit 是否存在 bug 之后，标记上 good or bad，会跳转到下一个需要判断的 commit，直到找到导致 bug 的 commit
 
