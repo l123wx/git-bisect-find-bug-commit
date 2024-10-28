@@ -4,6 +4,7 @@ function sum(a, b) {
 	// change 3
 	// change 5
 	// change 6
+	// change 7
 	return a + b - 1
 }
 
