@@ -24,7 +24,7 @@ git bisect 二分查找
 
 ### 试一试
 
-`index.js` 文件中，定义了一个 sum 方法，返回参数 a + b 的值。在某一个 commit 中，添加了一个 bug：sum 的返回值被改成了 a + b - 1。
+`index.js` 文件中，定义了一个 sum 方法，返回参数 a + b 的值。在某一个 commit 中，**添加了一个 bug：sum 的返回值被改成了 a + b - 1**。
 
 `index.test.js` 是一个 sum 方法的测试用例，输入 (1, 2)，预期输出为 3
 
